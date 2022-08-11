@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/club.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>persinal profile</title>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="searchMODEL" tabindex="-1" aria-labelledby="searchMODELlLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <input type="text" class="form-control input-lg">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+            <button type="button" class="btn btn-primary">بحث</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--end page mpdale  -->
+    <!--start header-->
+    <div class="header">
+        <div class="top-header">
+          <div class="logo"><img src="imgs/logo.png" alt="logo" /></div>
+          <ul class="list-unstyled">
+            <a href="nonification.html">
+              <li><i class="fas fa-bell"></i></li>
+            </a>
+            <li>
+              <img src="imgs/united-states-of-america (1).png" alt="united" />
+              <span>english</span>
+            </li>
+            <li class="drop-father">
+              <i class="fas fa-user"></i>
+              <span class="prof-info">الملف الشخخصي</span>
+              <div class="drow-down-me">
+                <ul class="list-unstyled drop-opac">
+                  <a href="personal.html"
+                    ><li>
+                      <i class="fas fa-user"></i>
+                      تعديل حسابي
+                    </li>
+                    </a>
+                  <a href="orders.html">
+                    <li>
+                      <i class="fas fa-comment-alt"></i>
+                      طلباتي
+                    </li>
+                  </a>
+                 <a href="chats.html">
+                  <li>
+                    <i class="fas fa-comment-alt"></i>
+                    المحادثات
+                  </li>
+                 </a>
+                  <a href="login.html">
+                    <li>
+                      <i class="fas fa-bell"></i>
+                      تسجيل خروج
+                    </li>
+                  </a>
+                </ul>
+              </div>
+              <i class="fas fa-angle-down"></i>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="down-header">
+          <ul class="list-unstyled hide-ul">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="who-us-page.html">من نحن</a></li>
+            <li><a href="#">لااقسام</a></li>
+            <li><a href="team.html">الاعضاء</a></li>
+            <li><a href="wallet.html">المحفظة</a></li>
+            <li>
+              <button
+                type="button"
+                class="btn white-color"
+                data-toggle="modal"
+                data-target="#searchMODEL"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+            </li>
+          </ul>
+          <img src="imgs/logo.png" alt="logo">
+          <div class="bars"><i class="fas fa-bars"></i></div>
+        </div>
+      </div>
+    <!--end header-->
+    <!--start section who-us-page-->
+    <div class="header-height">
+        <div class="over-lay"></div>
+        <h1>الرئيسية / الملف الشخصي</h1>
+    </div>
+    <!--end section who-us-page-->
+    <!--start section personal file-->
+    <div class="personal-profile">
+        <div class="photo-file">
+            <img src="imgs/3729-1.png" id="output"  alt="profile-img">
+            <div class="container"><div class="profile-name">محمد رمضان</div></div>
+        </div>
+        <div class="container left-prof">
+            <div class="pen-cam-cont"><a href="change-profile.html"><i class="fas fa-pen fa-2x"></i></a></div>
+            <div class="pen-cam-cont">
+                <input type="file" onchange="loadFile(event)" id="file" hidden>
+                <label for="file"><i class="fas fa-camera fa-2x"></i></label>
+            </div>
+        </div>
+        <div class="container">
+            <div class="taps">
+                <ul class="list-unstyled">
+                    <li data-cont=".taps-content1" class="active">المعلومات</li>
+                    <li data-cont=".taps-content2">الاصدقاء</li>
+                    <li  data-cont=".taps-content3">الصور</li>
+                </ul>
+            </div>
+            <div class="profile-taps">
+                <div class="taps-content1">
+                    <h3>كتابة اسم المستخدم</h3>
+                    <div class="tap-location">الرياض المملكة العربية السعودية</div>
+                    <div class="tap-info">
+                        <div class="tap-phone">
+                            <div class="phone-text">رقم الجوال</div>
+                            <div class="phone-value">00988675445334</div>
+                        </div>
+                        <div class="tap-age">
+                            <div class="age-text">ألعمر</div>
+                            <div class="age-value">25</div>
+                        </div>
+                    </div>
+                    <div class="tap-eg">
+                        <div class="tap-eg-text">الجنسية</div>
+                        <div class="tap-eg-value">مصري</div>
+                    </div>
+                    <div class="who-you">
+                        <div class="who-you-text">الهويات</div>
+                        <p>الان حجز جميع الملاعب في المملكة العربية السعودية يمكنك الان حجز جميع الملاعب في المملكة العربية السعودية حجز جميع الملاعب في المملكة العربية السعودية يمكنك الان حجز جميع الملاعب في المملكةالان حجز جميع الملاعب في المملكة العربية السعودية يمكنك الان حجز جميع الملاعب في المملكة العربية السعودية حجز جميع الملاعب في المملكة العربية السعودية يمكنك الان حجز جميع الملاعب في المملكة</p>
+                    </div>
+                </div>
+                <div class="taps-content2 text-center">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="img-box"><img class="img-fluid" src="imgs/download (20).png" alt="team"></div>
+                                <div class="team-name text-center">محمد رمضان</div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="taps-content3">
+                   <div class="img-tap text-center"><img src="imgs/hand-with-heart.png" alt="hand"></div>
+                   <div class="img-tap text-center"><img src="imgs/hand-with-heart.png" alt="hand"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end section personal file-->
+    <!--start video-foot-->
+    <div class="video-foot">
+       <div class="row">
+           <div class="col-md-6">
+                <div class="video-text">
+                    <div class="inner-text">هذا النص هو مثال لنص يمكن ان يستبدل</div>
+                    <p>فيديو تعريفي عن الانشطة التي يقوم بها ملاعب الشامي</p>
+                </div>
+           </div>
+           <div class="col-md-6">
+               <div class="vedio-box">
+                    <img class="img-fluid" src="imgs/slider-e1445958389451.png" alt="slider">
+                    <div class="img-go">
+                        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=ymGTG4PNyRo">
+                            <img src="imgs/play.png" alt="play">
+                        </a>
+                    </div>
+               </div>
+           </div>
+       </div>
+    </div>
+    <!--end video-foot-->
+    <!--start sectoin explore-->
+    <div class="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="explore-head">
+                        <div class="explore-text">استكشف تطبيق</div>
+                        <img src="imgs/logo.png" alt="logo">
+                    </div>
+                    <p>وخلي حياتك رياضية</p>
+                    <div class="imgs">
+                        <img src="imgs/android-app-download.png" alt="google">
+                        <img src="imgs/iphone-app-download.png" alt="iphone">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="left-img">
+                        <img class="phone" src="imgs/Group 13347.png" alt="group">
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!--end sectoin explore-->
+    <!--start section reach-us-->
+    <div class="raech-us">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-3">
+            <h2>تعرف علينا</h2>
+            <div class="links link-def">
+                <a href="#">من نحن</a>
+                <a href="#">الشروط والاحكام</a>
+                <a href="#">الاسئلة المكررة</a>
+                <a href="#">اتصل بنا</a>
+            </div>
+        </div>  
+        <div class="col-md-3">
+            <h2>الاقسام</h2>
+            <div class="links link-def">
+            <a href="#">اسم القسم</a>
+            <a href="#">اسم القسم</a>
+            <a href="#">اسم القسم</a>
+            <a href="#">اظهار الجميع</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h2>الانشطة</h2>
+            <div class="links">
+            <a href="#">اسم النشاط</a>
+            <a href="#">اسم النشاط</a>
+            <a href="#">اسم النشاط</a>
+            <a href="#">اسم النشاط</a>
+            </div>
+        </div> 
+        <div class="col-md-3">
+            <h2>تواصل</h2>
+            <div class="links link-def2">
+            <ul class="list-unstyled">
+                <li>
+                    <a
+                    href="https://www.facebook.com/profile.php?id=100005546626485"
+                    target="_blank"><img src="imgs/instagram (6).png" alt="insta">
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100005546626485"
+                        target="_blank"><img src="imgs/linkedin.png" alt="insta">
+                        </a>
+                    </li>
+                    <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100005546626485"
+                        target="_blank"><img src="imgs/facebook (7).png" alt="insta">
+                        </a>
+                    </li>
+                    <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100005546626485"
+                        target="_blank"><img src="imgs/youtube (3).png" alt="insta">
+                        </a>
+                    </li>
+                    <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100005546626485"
+                        target="_blank"><img src="imgs/twitter (6).png" alt="insta">
+                        </a>
+                    </li>
+                </ul>  
+            <a href="#">عملية الدفع</a>
+            <ul class="list-unstyled pay">
+                <li>
+                <a
+                    href="https://www.facebook.com/profile.php?id=100005546626485"
+                    target="_blank"><img src="imgs/Group 2181.png" alt="..">
+                </a>
+                </li>
+                <li>
+                <a
+                href="https://www.facebook.com/profile.php?id=100005546626485"
+                target="_blank"><img src="imgs/Group 2182.png" alt="..">
+                </a>
+                </li>
+                <li>
+                <a
+                    href="https://www.facebook.com/profile.php?id=100005546626485"
+                    target="_blank"><img src="imgs/Group 2183.png" alt="..">
+                </a>
+                </li>
+                <li>
+                <a
+                    href="https://www.facebook.com/profile.php?id=100005546626485"
+                    target="_blank"><img src="imgs/Group 2201.png" alt="..">
+                </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--end section reach-us-->
+    <!--start footer-->
+    <footer>
+        <div class="footer-body">جميع الحقوق محفوظة لدي ملاعب الشامي 2021</div>
+    </footer>
+    <!--end footer-->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src='https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyA9_ve_oT3ynCaAF8Ji4oBuDjOhWEHE92U&libraries=places'></script>
+    <script src="js//club.js"></script>
+</body>
+</html>

@@ -1,0 +1,470 @@
+@media (max-width: 767px) {
+  .top-header {
+    justify-content: center;
+    padding: 8px;
+    font-size: 15px;
+  }
+  .top-header .logo img {
+    width: 60px;
+    display: none;
+  }
+  .top-header ul {
+    margin: 0;
+    text-align: left;
+    /* display: flex; */
+    align-items: center;
+    /* overflow: hidden; */
+  }
+  .top-header span {
+    font-size: 11px;
+    display: none;
+  }
+  .top-header ul li {
+    margin-left: 10px;
+    padding-right: 25px;
+  }
+  .top-header ul li img {
+    width: 34px;
+  }
+  .top-header .fa-bell,
+  .fa-user {
+    font-size: 20px;
+  }
+  .top-header .fa-angle-down {
+    font-size: 20px;
+  }
+  .header .down-header {
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .down-header ul {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 49px;
+    right: 0;
+    width: 250px;
+    background-color: #e9910b;
+    height: 100vh;
+    z-index: 99999999999999999999999999999999999999999999999999999999999;
+    transition: all 0.4s ease-in-out;
+  }
+  .down-header ul li {
+    display: block;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .down-header ul li a {
+    color: white;
+    font-size: 14px;
+  }
+  .drow-down-me ul {
+    width: 150px;
+    font-size: 10px;
+    position: absolute;
+    top: 35px;
+    right: -115px;
+    padding: 5px;
+  }
+  .contact-us label {
+    margin-bottom: 10px;
+  }
+  /* .slider .slider-text {
+    right: 9%;
+    top: 17%;
+    transform: translate(-50%);
+  } */
+  .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    display: none;
+  }
+  .down-header img {
+    display: block;
+    width: 42px;
+  }
+  .bars {
+    display: block;
+  }
+  .tog-ul {
+    transform: translateX(250px);
+  }
+  .slider .slider-text {
+    right: 29%;
+    top: 16%;
+    transform: translateY(0);
+  }
+  .slider .slider-text .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .slider .slider-text .sale {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .slider .slider-text p {
+    font-size: 14px;
+  }
+  .slider .slider-text .more {
+    width: 190px;
+    padding: 9px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .owl-carousel .owl-nav button.owl-prev {
+    right: 10px;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    left: 10px;
+  }
+  .labels h2 {
+    margin-bottom: 5px;
+  }
+  .video-foot {
+    padding: 40px;
+    margin-top: 45px;
+  }
+  .video-foot .video-text {
+    padding-left: 0;
+    position: static;
+    transform: translate(0);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .video-foot .img-go img {
+    width: 60px;
+  }
+  .video-foot .img-go {
+    top: 34%;
+  }
+  /* .contact-us .row{
+        margin-top: 120px;
+    }  */
+  .contact-us h2 {
+    margin-bottom: 10px;
+  }
+  .contact-us .contact-info {
+    margin-top: 0;
+    transform: translateY(0);
+  }
+  .contact-us .form-box {
+    margin-top: 30px;
+  }
+  .trainers .trainer-box {
+    margin-bottom: 30px;
+  }
+  .trainers {
+    margin-top: 70px;
+  }
+  .explore {
+    margin-top: 60px;
+    padding: 45px;
+  }
+  .explore .phone {
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .raech-us .col-md-3 {
+    margin-bottom: 20px;
+  }
+  .footer-body {
+    font-size: 15px;
+  }
+  .header-height h1 {
+    font-size: 12px;
+  }
+  .stadiums .rate-location {
+    font-size: 14px;
+  }
+  .stadiums h2 {
+    margin-bottom: 30px;
+  }
+  .login-img img {
+    width: 120px;
+  }
+  .login .footer-log {
+    font-size: 10px;
+  }
+  .submit {
+    padding: 10px;
+    min-width: 60px;
+    font-size: 14px;
+  }
+  .notification .noti-text {
+    font-size: 15px;
+  }
+  .orders li {
+    margin-top: 20px;
+  }
+  .chats .chat-down-text {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+  .chats .chat-time {
+    font-size: 13px;
+  }
+  .orders .nav {
+    flex-wrap: nowrap;
+  }
+  .orders h2 {
+    margin-bottom: 20px;
+  }
+  .login h3 {
+    font-size: 17px;
+  }
+  .pay-way .pay-visa {
+    justify-content: center;
+  }
+  .profile-name {
+    font-size: 22px;
+  }
+  .pen-cam-cont {
+    width: 60px;
+    height: 60px;
+    margin-top: 24px;
+  }
+  .taps-content1 p {
+    font-size: 17px;
+  }
+  .about-us p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .top-header {
+    justify-content: center;
+    padding: 8px;
+    font-size: 15px;
+  }
+  .top-header .logo img {
+    width: 60px;
+    display: none;
+  }
+  .top-header ul {
+    margin: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+  }
+  .top-header span {
+    font-size: 11px;
+    display: none;
+  }
+  .top-header ul li {
+    margin-left: 10px;
+    padding-right: 25px;
+  }
+  .top-header ul li img {
+    width: 34px;
+  }
+  .top-header .fa-bell,
+  .fa-user {
+    font-size: 20px;
+  }
+  .top-header .fa-angle-down {
+    font-size: 20px;
+  }
+  .header .down-header {
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .down-header ul {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 49px;
+    right: 0;
+    width: 250px;
+    background-color: #e9910b;
+    height: 100vh;
+    z-index: 99999999999999999999999999999999999999999999999999999999999;
+    transition: all 0.4s ease-in-out;
+  }
+  .down-header ul li {
+    display: block;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .down-header ul li a {
+    color: white;
+    font-size: 14px;
+  }
+  .drow-down-me ul {
+    width: 150px;
+    font-size: 10px;
+    position: absolute;
+    top: 35px;
+    right: -115px;
+    padding: 5px;
+  }
+  .contact-us label {
+    margin-bottom: 10px;
+  }
+  .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    display: none;
+  }
+  .down-header img {
+    display: block;
+    width: 42px;
+  }
+  .bars {
+    display: block;
+  }
+  .tog-ul {
+    transform: translateX(250px);
+  }
+  .slider .slider-text {
+    right: 26%;
+    top: 35%;
+  }
+  .slider .slider-text .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .slider .slider-text .sale {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .slider .slider-text p {
+    font-size: 14px;
+  }
+  .slider .slider-text .more {
+    width: 70px;
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .owl-carousel .owl-nav button.owl-prev {
+    right: 10px;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    left: 10px;
+  }
+  .labels h2 {
+    margin-bottom: 5px;
+  }
+  .video-foot {
+    padding: 40px;
+    margin-top: 45px;
+  }
+  .video-foot .video-text {
+    padding-left: 0;
+    position: static;
+    transform: translate(0);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .video-foot .img-go img {
+    width: 60px;
+  }
+  .video-foot .img-go {
+    top: 34%;
+  }
+  /* .contact-us .row{
+            margin-top: 120px;
+        }  */
+  .contact-us h2 {
+    margin-bottom: 10px;
+  }
+  .contact-us .contact-info {
+    margin-top: 0;
+    transform: translateY(0);
+  }
+  .contact-us .form-box {
+    margin-top: 30px;
+  }
+  .trainers .trainer-box {
+    margin-bottom: 30px;
+  }
+  .trainers {
+    margin-top: 70px;
+  }
+  .explore {
+    margin-top: 60px;
+    padding: 45px;
+  }
+  .explore .phone {
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .raech-us .col-md-3 {
+    margin-bottom: 20px;
+  }
+  .footer-body {
+    font-size: 15px;
+  }
+  .header-height h1 {
+    font-size: 12px;
+  }
+  .stadiums .rate-location {
+    font-size: 14px;
+  }
+  .stadiums h2 {
+    margin-bottom: 30px;
+  }
+  .login-img img {
+    width: 120px;
+  }
+  .login .footer-log {
+    font-size: 10px;
+  }
+  .submit {
+    padding: 10px;
+    min-width: 60px;
+    font-size: 14px;
+  }
+  .notification .noti-text {
+    font-size: 15px;
+  }
+  .orders li {
+    margin-top: 20px;
+  }
+  .chats .chat-down-text {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+  .chats .chat-time {
+    font-size: 13px;
+  }
+  .orders .nav {
+    flex-wrap: nowrap;
+  }
+  .orders h2 {
+    margin-bottom: 20px;
+  }
+  .login h3 {
+    font-size: 17px;
+  }
+  .pay-way .pay-visa {
+    justify-content: center;
+  }
+  .profile-name {
+    font-size: 22px;
+  }
+  .pen-cam-cont {
+    width: 60px;
+    height: 60px;
+    margin-top: 24px;
+  }
+  .taps-content1 p {
+    font-size: 17px;
+  }
+  .about-us p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+}
